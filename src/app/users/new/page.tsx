@@ -1,5 +1,5 @@
-const NewPage = () => {
+const NewUser = () => {
   return <div>NewPage</div>;
 };
 
-export default NewPage;
+export default NewUser;

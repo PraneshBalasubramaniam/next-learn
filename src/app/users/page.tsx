@@ -5,7 +5,7 @@ interface Type {
   email: `${string}@${string}`;
 }
 
-const UsersPage = async () => {
+const Users = async () => {
   const users: Type[] = await fetch(
     'https://jsonplaceholder.typicode.com/users',
     { next: { revalidate: 10 } }
@@ -26,4 +26,4 @@ const UsersPage = async () => {
   );
 };
 
-export default UsersPage;
+export default Users;
