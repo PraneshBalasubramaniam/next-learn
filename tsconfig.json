@@ -12,6 +12,10 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "noUncheckedIndexedAccess": true,
+    // "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
     "plugins": [
       {
         "name": "next"
